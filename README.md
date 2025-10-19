@@ -14,7 +14,7 @@ The final deliverable is a fully deployed and functional data insights platform.
 | ------------------- | ------------------------- | -------------------------------------------------------- |
 | **Backend**         | Python 3.10+, FastAPI     | REST API for file handling and processing                |
 | **Data Processing** | Pandas, NumPy, Matplotlib | Numerical analysis and chart generation                  |
-| **Generative AI**   | Groq SDK (LLaMA 3)        | Generate textual insights from statistical data          |
+| **Generative AI**   | Gemini API (Google AI)    | Generate textual insights from statistical data          |
 | **Frontend**        | React.js (Vite), Axios    | Interactive interface for file upload and result display |
 | **Deployment**      | Heroku / Railway / Vercel | Host backend and frontend                                |
 | **Version Control** | Git, GitHub               | Source code management and collaboration                 |
@@ -78,5 +78,6 @@ uvicorn main:app --reload
 * Generate visual charts from datasets
 * Get AI-generated insights from **Groq's LLaMA 3 model**
 * Easy-to-use frontend interface
+
 
 
