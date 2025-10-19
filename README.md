@@ -1,8 +1,4 @@
-Here's a clean, professional, and properly formatted GitHub `README.md` for your project based on your input:
-
----
-
-# 📊 Data Insights Generator (Role 1 Assessment)
+# 📊 Data Insights Generator 
 
 This is a full-stack web application developed for the **Multimeta.ai Technical Hiring Assessment (Role 1)**.
 
@@ -82,4 +78,5 @@ uvicorn main:app --reload
 * Generate visual charts from datasets
 * Get AI-generated insights from **Groq's LLaMA 3 model**
 * Easy-to-use frontend interface
+
 
