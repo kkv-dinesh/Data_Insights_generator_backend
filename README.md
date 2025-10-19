@@ -56,7 +56,7 @@ Create a `.env` file in the project root with your **Groq API Key**:
 
 ```env
 # .env
-GEMINI_API_KEY="YOUR_GROQ_API_KEY_HERE"
+GEMINI_API_KEY="YOUR_GEMINI_API_KEY_HERE"
 ```
 
 #### Run the backend server
@@ -78,6 +78,7 @@ uvicorn main:app --reload
 * Generate visual charts from datasets
 * Get AI-generated insights from **Groq's LLaMA 3 model**
 * Easy-to-use frontend interface
+
 
 
 
