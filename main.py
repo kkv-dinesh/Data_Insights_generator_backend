@@ -17,7 +17,8 @@ app = FastAPI(
 
 # CORS configuration (React frontend)
 origins = [
-    "http://localhost:3000",  # React dev server
+    "http://localhost:3000", 
+    "https://data-insights-generator-frontend.vercel.app/"
 ]
 
 app.add_middleware(
